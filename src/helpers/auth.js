@@ -35,7 +35,8 @@ export function saveUser (user) {
       uid: user.uid
     })
     .then(() => {
-      
       return user;
     })
 }
+
+
